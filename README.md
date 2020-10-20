@@ -1,21 +1,35 @@
-OneWorld QuickView
+# OneWorld Currency Exchange Quick Reference
 
-Becky King-Reilly
+by Becky King-Reilly
 
-Description: 
-This site that presents the value of currency, and other commodity monies. Inspired by the COVID-19 map created by the 17-year-old from Washington State. https://ncov2019.live/map, this site will present currencies with interactive visual representation of the data.
+## Description
+This site lists currency exchange rates based on the US Dollar for quick up to date reference.
 
-Overwhelmed by the global monetary rates presented in confusing graphs and charts, this site will provide more simplifed representaion of data for quick up to date reference. With room for growth to include more data, this site will serve as a quick reference to the global economy.
+## Technologies Used
+HTML
+JS
+CSS
 
-API Snippet
+## Usability Goals
+The preliminary data presented on this site will focus on a particular region - Africa.
 
-
-
-Trello Board: https://trello.com/b/RvDbAwEn/mapcurrency
-
-Users will be able to view a snapshot of the world's economy with an interactive visual representation that will provide them with a glimpse of the currency exchange rate, GDP and news that is affecting the individual country's economy. 
-
-The preliminary data presented on this site will focus on the currency and commodity values.
+Users will be able to search and select currency rate for specific countries based on the US Dollar 
 
 Users will be able to hover over the data and for quick snapshot of the data. 
 
+Users will have snapshot view of the world's currency exchange with an interactive visual representation via a map 
+
+## API Snippet
+The API utilized in this project is provided by openexchangerates.org
+
+## Project Task Manager
+https://trello.com/b/RvDbAwEn/mapcurrency
+
+## Credit
+
+Inspired by the COVID-19 map created by Avi Schiffmann. https://ncov2019.live/map, this site will ultimately present currencies simplified visualization of the data - one region at a time.
+
+Thank you to the General Assembly community!
+
+## License
+<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.
