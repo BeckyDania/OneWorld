@@ -1,0 +1,65 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    background-color: #cfd8dc;    
+}
+
+#main-nav a{
+    color: purple;
+    display: block;
+    height: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+
+#main-nav ul {
+    list-style: none;
+    display: flex;
+}
+
+#main-nav li {
+    width: 100%;
+    text-align: center;
+    position: relative;
+}
+
+header {
+    height: 3em;
+    padding: 1em;
+    background-color: #42a5f5;
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dropdown {
+    padding: 1em;
+    display: flex;
+    justify-content: center;
+}
+select {
+    padding:1em;
+}
+
+select option {
+    padding:1em;
+}
+
+
+.search {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.search .search-result {
+    background-color: #fafafa;
+    text-align: center;
+    border:1px solid #bdbdbd;
+    border-radius: 4px;
+    width: 60%;
+    margin: 1em auto;
+}

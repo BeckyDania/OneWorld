@@ -3,23 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="style.css">
     
     <title>OneWorld View</title>
 </head>
 <body>
-    <header>
-        <h1>OneWorld View</h1>
+    <nav id= "main-nav">
+        <ul>
+            <li>
+                <a href="#">Home</a>
+            </li> 
+            <li>
+                <a href="#">About</a>
+            <li>
+                <a href="#">Map</a>
+            </li>
+        </ul>
+    </nav> 
+    <header> 
+        <h1>OneWorld Currency Exchange Quick Reference</h1>
     </header>
-    <main>
-      <div>
-        <div>
-            <button class="button">Get Quote</button>
-       </div>
-        <div>
-           
-    </main>
-
+     
+    <div class ="dropdown"></div>
+    <section class="search"></section>
      <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
     <script src="./api.js"></script>
 </body>
