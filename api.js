@@ -26,13 +26,13 @@ const buildDropdown = async (data) => {
     const rates = response.data.rates
     for (const value in rates) {
         console.log (`${value}: ${rates[value]}`);
-        /* let optionElement = document.createElement('option')
+        let optionElement = document.createElement('option')
         optionElement.innerText = `${rates}` 
-        optionElement.setAttribute('value'())
-        }; */
+        optionElement.setAttribute('value', data.rates)
+        dropdown.appendChild(optionElement)
+        };
 
     dropdownDiv.appendChild(dropdown)
 }
 
 window.onload = getRates 
-} 
