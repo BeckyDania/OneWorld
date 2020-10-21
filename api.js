@@ -23,6 +23,7 @@ const buildDropdown = async (data) => {
     let response = await axios.get(CURRENCY_URL)
     const dropdownDiv = document.querySelector('.dropdown')
     const dropdown = document.createElement('select')
+    dropdown.addEventListener('change', getExchRate)
     const rates = response.data
     for (const value in rates) {
         console.log (`${value}: ${rates[value]}`);
@@ -33,6 +34,15 @@ const buildDropdown = async (data) => {
         };
 
     dropdownDiv.appendChild(dropdown)
+}
+const getExchRate = async (event) => {
+    console.log(event)
+    try {
+    const response = await axios.get(EXCHANGE_URL)
+    console.log(response)
+    }catch(error){
+          console.log(error)
+    }
 }
 
 window.onload = getRates 
